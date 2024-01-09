@@ -29,6 +29,7 @@ class Player {
         }
     }
 
+    
     printPlayer() {
         console.log(`NAME: ${this.name}`);
         for (const [key, value] of Object.entries(this.attributes)) {
